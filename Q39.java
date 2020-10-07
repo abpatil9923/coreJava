@@ -44,9 +44,10 @@ class Product {
 			
 			int total = a.price * a.quantity;
 		
-	
 			System.out.println("total amount spent by pId "+a.pid+" is : "+total);
 			System.out.println("================================================");
+			
+			total = 0; 
 		}
 		
 	}
@@ -60,7 +61,7 @@ class Q39{
 		
 		Scanner scan = new Scanner(System.in);
 		
-		Product arr[] = new Product[3];  
+		Product arr[] = new Product[5];  
 		
 		for(int i=0; i<arr.length; i++) {
 			
